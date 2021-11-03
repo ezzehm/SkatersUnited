@@ -1,0 +1,16 @@
+@media screen and (max-width: 780px){
+    .navbar{
+        background-color: rgb(5, 5, 158);
+    }
+}
+
+@media screen and (max-width: 430px){
+    .navbar{
+        background-color: rgb(5, 5, 158);
+    }
+    .card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}

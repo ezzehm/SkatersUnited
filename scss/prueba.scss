@@ -1,0 +1,38 @@
+@import "barranavegacion";
+@import "contacto";
+@import "tienda";
+@import "staff";
+@import "diseno";
+@import "galeria";
+@import "mediaq";
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: beige;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar{
+    background-image: url(../multimedia/dark_wall.png);
+    height: 10rem;
+}
+
+.carousel-item{
+    img{
+        height: 100rem;
+    }
+}

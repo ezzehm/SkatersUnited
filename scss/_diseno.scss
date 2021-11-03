@@ -1,0 +1,22 @@
+.mainDiseno {
+	width: 200rem;
+	h3 {
+		color: coral;
+		font-size: 3rem;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		padding-top: 5rem;
+		text-align: center;
+		text-decoration: underline;
+	}
+}
+
+.imagesDiseno {
+	display: grid;
+	grid-template-columns: 90rem 90rem;
+	grid-template-rows: 100rem;
+	justify-items: center;
+	img {
+		width: 60rem;
+		padding-top: 10rem;
+	}
+}

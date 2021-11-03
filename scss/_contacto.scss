@@ -1,0 +1,29 @@
+.contactoMsj {
+	padding-left: 25rem;
+}
+.noticiasContacto {
+	font-size: 1.5rem;
+}
+.formularioContacto {
+	label {
+		display: block;
+	}
+	textarea {
+		display: block;
+	}
+}
+.mainContacto {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	row-gap: 5rem;
+	justify-items: center;
+	padding-top: 5rem;
+	form {
+		width: 100rem;
+	}
+}
+.btn-lg {
+	width: 10rem;
+	margin-top: 2rem;
+}
