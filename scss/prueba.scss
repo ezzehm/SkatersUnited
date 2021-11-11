@@ -4,7 +4,6 @@
 @import "staff";
 @import "diseno";
 @import "galeria";
-@import "mediaq";
 
 html{
     font-size: 62.5%;
@@ -26,9 +25,20 @@ a{
     align-content: center;
 }
 
+.container-fluid{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .navbar{
     background-image: url(../multimedia/dark_wall.png);
     height: 10rem;
+}
+
+.navbar-toggler{
+    font-size: 1.25rem;
 }
 
 .carousel-item{
@@ -36,3 +46,9 @@ a{
         height: 100rem;
     }
 }
+.iconosRedes{
+    width: 4rem;
+}
+
+
+@import "mediaq";
