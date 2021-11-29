@@ -20,10 +20,18 @@
 	justify-items: center;
 	padding-top: 5rem;
 	form {
-		width: 100rem;
+		width: 120rem;
 	}
 }
 .btn-lg {
 	width: 10rem;
 	margin-top: 2rem;
+}
+
+.bordeForm{
+	border-style: double;
+	border-radius: 1rem;
+	border-color: lightskyblue;
+	padding: 1rem;
+	margin: 1rem;
 }

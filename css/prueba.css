@@ -23,6 +23,14 @@
   .volverInicio a:hover {
     color: #c207c2; }
 
+.carrusel__titulo {
+  font-size: 4rem;
+  color: lightskyblue; }
+
+.carrusel__parrafo {
+  font-size: 2rem;
+  color: whitesmoke; }
+
 .contactoMsj {
   padding-left: 25rem; }
 
@@ -43,11 +51,18 @@
   justify-items: center;
   padding-top: 5rem; }
   .mainContacto form {
-    width: 100rem; }
+    width: 120rem; }
 
 .btn-lg {
   width: 10rem;
   margin-top: 2rem; }
+
+.bordeForm {
+  border-style: double;
+  border-radius: 1rem;
+  border-color: lightskyblue;
+  padding: 1rem;
+  margin: 1rem; }
 
 .tiendaSkate {
   display: grid;
@@ -130,7 +145,7 @@
 .mainDiseno {
   width: 200rem; }
   .mainDiseno h3 {
-    color: coral;
+    color: lightblue;
     font-size: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 5rem;
@@ -145,6 +160,9 @@
   .imagesDiseno img {
     width: 60rem;
     padding-top: 10rem; }
+
+.text-center {
+  padding-top: 1rem; }
 
 .mainGaleria {
   display: grid;
@@ -190,7 +208,7 @@ a {
 
 .navbar {
   background-image: url(../multimedia/dark_wall.png);
-  height: 10rem; }
+  height: 12rem; }
 
 .navbar-toggler {
   font-size: 1.25rem; }
