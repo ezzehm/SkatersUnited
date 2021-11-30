@@ -24,3 +24,22 @@
 .text-center{
 	padding-top: 1rem;
 }
+
+@keyframes colores{
+	0%{background-color: red;}
+	20%{background-color: yellow;}
+	40%{background-color: white;}
+	60%{background-color: green;}
+	80%{background-color: blue;}
+	100%{background-color: purple;}
+}
+
+.animacionColores{
+	width: 40rem;
+	height: 40rem;
+	background-color: red;
+	animation-name: colores;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}

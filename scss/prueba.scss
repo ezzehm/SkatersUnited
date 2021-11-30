@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    background-color: black;
+    background: linear-gradient(to right, #000000, #434343);
 }
 
 a{
@@ -37,15 +37,8 @@ a{
     height: 12rem;
 }
 
-.navbar-toggler{
-    font-size: 1.25rem;
-}
 
-.carousel-item{
-    img{
-        height: 100rem;
-    }
-}
+
 .iconosRedes{
     width: 4rem;
 }

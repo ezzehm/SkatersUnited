@@ -6,10 +6,10 @@
     padding: 0rem 5rem;
     text-align: center; }
   .barra-nav a:hover {
-    color: #c207c2; }
+    color: #2c5de2; }
 
 .seccionAct {
-  color: violet; }
+  color: lightskyblue; }
 
 .d-inline-block {
   border-right: inset;
@@ -21,7 +21,7 @@
     text-align: center;
     font-family: 'Stick No Bills', sans-serif; }
   .volverInicio a:hover {
-    color: #c207c2; }
+    color: lightskyblue; }
 
 .carrusel__titulo {
   font-size: 4rem;
@@ -60,31 +60,9 @@
 .bordeForm {
   border-style: double;
   border-radius: 1rem;
-  border-color: lightskyblue;
+  border-color: orange;
   padding: 1rem;
   margin: 1rem; }
-
-.tiendaSkate {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50rem 50rem;
-  justify-items: center;
-  padding-top: 5rem;
-  transition: all 1.5s; }
-  .tiendaSkate img:hover {
-    width: 30rem; }
-
-.fondoComentarios {
-  font-family: 'Indie Flower', cursive;
-  font-size: 1.5rem;
-  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-  color: #a7a5a5;
-  height: 40rem; }
-  .fondoComentarios div {
-    text-align: center;
-    padding-top: 15rem;
-    margin-left: 30rem;
-    display: inline-block; }
 
 .containerTienda {
   display: grid;
@@ -101,6 +79,7 @@
   margin-top: 2rem; }
 
 .subtituloTienda {
+  font-family: cursive;
   text-align: center;
   color: lightblue;
   font-size: 2rem;
@@ -164,6 +143,29 @@
 .text-center {
   padding-top: 1rem; }
 
+@keyframes colores {
+  0% {
+    background-color: red; }
+  20% {
+    background-color: yellow; }
+  40% {
+    background-color: white; }
+  60% {
+    background-color: green; }
+  80% {
+    background-color: blue; }
+  100% {
+    background-color: purple; } }
+
+.animacionColores {
+  width: 40rem;
+  height: 40rem;
+  background-color: red;
+  animation-name: colores;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; }
+
 .mainGaleria {
   display: grid;
   grid-template-columns: 80rem 80rem;
@@ -187,7 +189,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  background-color: black; }
+  background: linear-gradient(to right, #000000, #434343); }
 
 a {
   text-decoration: none;
@@ -210,12 +212,6 @@ a {
   background-image: url(../multimedia/dark_wall.png);
   height: 12rem; }
 
-.navbar-toggler {
-  font-size: 1.25rem; }
-
-.carousel-item img {
-  height: 100rem; }
-
 .iconosRedes {
   width: 4rem; }
 
@@ -224,6 +220,8 @@ a {
     flex-direction: row;
     justify-content: flex-end;
     flex-wrap: nowrap; }
+  .sizeBarra {
+    font-size: 1.50rem !important; }
   .contactoMsj {
     height: 30rem;
     padding-right: 20rem; }

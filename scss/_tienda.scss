@@ -1,29 +1,3 @@
-.tiendaSkate {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 50rem 50rem;
-	justify-items: center;
-	padding-top: 5rem;
-	transition: all 1.5s;
-	img {
-		&:hover {
-			width: 30rem;
-		}
-	}
-}
-.fondoComentarios {
-	font-family: 'Indie Flower', cursive;
-	font-size: 1.5rem;
-	background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-	color: rgb(167, 165, 165);
-	height: 40rem;
-	div {
-		text-align: center;
-		padding-top: 15rem;
-		margin-left: 30rem;
-		display: inline-block;
-	}
-}
 .containerTienda {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -41,6 +15,7 @@
 }
 
 .subtituloTienda{
+	font-family: cursive;
 	text-align: center;
 	color: lightblue;
 	font-size: 2rem;
