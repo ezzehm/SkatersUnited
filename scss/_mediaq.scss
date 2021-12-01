@@ -165,11 +165,10 @@
 
     //Crea tu diseno//
     .mainDiseno {
-        width: 100rem;
         h3 {
             font-size: 1.45rem;
             padding-top: 1rem;
-            padding-right: 20rem;
+            padding-right: 40rem;
         }
     }
     
@@ -193,9 +192,6 @@
     }
 
     //staff//
-    .containerStaff{
-        width: 90rem !important;
-    }
     .cajaStaff {
         display: grid;
         grid-template-columns: 24rem 24rem 24rem;
@@ -319,6 +315,7 @@
 @media screen and (max-width: 380px){
     //Crea tu diseno//
     .imagesDiseno{
+        max-width: 80rem;
         grid-template-columns: 30rem;
         img{
             width: 24rem;

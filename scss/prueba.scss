@@ -5,13 +5,24 @@
 @import "diseno";
 @import "galeria";
 
-html{
-    font-size: 62.5%;
-}
-
 body{
     background: linear-gradient(to right, #000000, #434343);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
+
+html{
+    font-size: 62.5%;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 
 a{
     text-decoration: none;

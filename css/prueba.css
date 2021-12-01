@@ -120,15 +120,13 @@
   text-transform: uppercase;
   margin-top: 2rem; }
 
-.mainDiseno {
-  width: 200rem; }
-  .mainDiseno h3 {
-    color: lightblue;
-    font-size: 3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 5rem;
-    text-align: center;
-    text-decoration: underline; }
+.mainDiseno h3 {
+  color: lightblue;
+  font-size: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 5rem;
+  text-align: center;
+  text-decoration: underline; }
 
 .imagesDiseno {
   display: grid;
@@ -184,11 +182,21 @@
   text-transform: uppercase;
   padding-top: 2rem; }
 
-html {
-  font-size: 62.5%; }
-
 body {
-  background: linear-gradient(to right, #000000, #434343); }
+  background: linear-gradient(to right, #000000, #434343);
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
 
 a {
   text-decoration: none;
@@ -329,12 +337,10 @@ a {
       width: 65rem; }
     .mainContacto img {
       margin-right: 15rem; }
-  .mainDiseno {
-    width: 100rem; }
-    .mainDiseno h3 {
-      font-size: 1.45rem;
-      padding-top: 1rem;
-      padding-right: 20rem; }
+  .mainDiseno h3 {
+    font-size: 1.45rem;
+    padding-top: 1rem;
+    padding-right: 40rem; }
   .imagesDiseno {
     display: grid;
     grid-template-columns: 60rem;
@@ -349,8 +355,6 @@ a {
     width: 25rem;
     height: 25rem;
     margin-right: 20rem; }
-  .containerStaff {
-    width: 90rem !important; }
   .cajaStaff {
     display: grid;
     grid-template-columns: 24rem 24rem 24rem;
@@ -435,6 +439,7 @@ a {
 
 @media screen and (max-width: 380px) {
   .imagesDiseno {
+    max-width: 80rem;
     grid-template-columns: 30rem; }
     .imagesDiseno img {
       width: 24rem;
